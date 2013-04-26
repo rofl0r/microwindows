@@ -85,7 +85,7 @@ typedef int                 	INT;
 #endif
 typedef unsigned int        	*PUINT;
 
-typedef uint32_t       DWORD;
+typedef unsigned long       DWORD;
 typedef unsigned char       BYTE;
 typedef unsigned short      WORD;
 
