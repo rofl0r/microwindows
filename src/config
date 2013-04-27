@@ -168,7 +168,7 @@ PCF_FONT_DIR             = "fonts/pcf"
 ####################################################################
 HAVE_FREETYPE_2_SUPPORT  = Y
 INCFT2LIB                = /usr/include
-LIBFT2LIB                = /usr/local/lib/libfreetype.a
+LIBFT2LIB                = -lfreetype
 FREETYPE_FONT_DIR        = "fonts/truetype"
 
 ####################################################################
@@ -345,5 +345,5 @@ LIRCKBD2                 = N
 ####################################################################
 HAVE_VNCSERVER_SUPPORT   = N
 VNCSERVER_PTHREADED      = N
-LIBVNC                   = /usr/lib/libvncserver.a
+LIBVNC                   = -lvncserver
 INCVNC                   = /usr/include
